@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /*height: 100vh;*/
+}
+
+.bodyWrapper {
+    width: 100%;
+    display: flex;
+    /*overflow-x: hidden;*/
+}
+
+/*left part start*/
+.bodyWrapper .leftPart {
+    width: 65%;
+    overflow-y: hidden;
+}
+
+.bodyWrapper .leftPart object {
+    width: 100%;
+}
+
+/*left part end*/
+.bodyWrapper .rightPart {
+    width: 35%;
+    padding: 50px 30px;
+}
+
+.bodyWrapper .rightPart .heading {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.bodyWrapper .rightPart .heading .left {
+    flex-basis: 50px;
+}
+
+.bodyWrapper .rightPart .heading .left i {
+    font-size: 40px;
+    color: #bbb;
+}
+
+.bodyWrapper .rightPart .heading .right {
+    
+}
+
+.bodyWrapper .rightPart .logo {}
+
+.bodyWrapper .rightPart .logo img {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.bodyWrapper .rightPart .orderDetails {}
+
+.bodyWrapper .rightPart .orderDetails .heading {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.bodyWrapper .rightPart .orderDetails .detailsWrapper {
+    width: 100%;
+    margin-top: -20px;
+}
+
+.bodyWrapper .rightPart .orderDetails .detailsWrapper .row {
+    display: flex;
+}
+
+.bodyWrapper .rightPart .orderDetails .detailsWrapper .row .left {
+    flex-basis: 40%;
+}
+
+.bodyWrapper .rightPart .orderDetails .detailsWrapper .row .right {
+    flex-basis: 60%;
+}
+
+.bodyWrapper .rightPart .from {
+    margin-top: 20px;
+}
+
+.bodyWrapper .rightPart .from .heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bodyWrapper .rightPart .from .details {
+    margin-top: -20px;
+}
+
+.bodyWrapper .rightPart .to {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.bodyWrapper .rightPart .to .heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bodyWrapper .rightPart .to .details {
+    margin-top: -20px;
+}
+
+.bodyWrapper .rightPart .to .details a {
+    text-decoration: none;
+}
+
+/*fotter start*/
+.bodyWrapper .rightPart .fotterHeading {
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.bodyWrapper .rightPart .fotter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.bodyWrapper .rightPart .fotter .left {
+    flex-basis: 25px;
+}
+
+.bodyWrapper .rightPart .fotter .left input[type='radio'] {
+    accent-color: #232323;
+}
+
+.bodyWrapper .rightPart .fotter .right {
+    /*flex-basis: 94%;*/
+    border-left: 5px solid #6CBD66;
+    padding-left: 10px;
+    height: 150px;
+}
+
+.bodyWrapper .rightPart .fotter .right p {}
+
+.bodyWrapper .rightPart .fotter .right p i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.bodyWrapper .rightPart .fotter .right a {}
+
+.bodyWrapper .rightPart .fotter .right a {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background: #6CBD66;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bodyWrapper .rightPart .fotter .right a button i {}
+
+/*fotter end*/
